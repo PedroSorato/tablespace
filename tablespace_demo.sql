@@ -54,5 +54,5 @@ ALTER DATABASE ADD DATAFILE 'C:/app/oracle/oradata/ORCL1/vendas02.dbf'
 SIZE 30M AUTOEXTEND ON;
 
 -- 9) Removendo o usuário e tablespace para limpar ambiente
--- DROP USER pedro CASCADE;
--- DROP TABLESPACE vendas_tbs INCLUDING CONTENTS AND DATAFILES;
+DROP USER pedro CASCADE;
+DROP TABLESPACE vendas_tbs INCLUDING CONTENTS AND DATAFILES;
